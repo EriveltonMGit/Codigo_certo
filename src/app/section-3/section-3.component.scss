@@ -165,14 +165,15 @@
 @media screen and (max-width:480px) {
     // MINHA JORNADA SECTION 3
 #minha_jornada {
-    width: 95%;
+    width:100%;
     height: 160vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20vh;
-    //  outline: 1px solid red;
+    margin-top: 50vh;
+    outline: 1px solid red;
+    
 }
 
 // IMG DISCORD
@@ -187,7 +188,7 @@
     align-items: center;
     justify-content: flex-start;
     z-index: 2;
-   
+    
 
 }
 
@@ -210,7 +211,7 @@
     position: relative;
     padding: 1rem;
     z-index: 2;
-        outline: 1px solid red;
+
 }
 
 // titulo_gostos
@@ -258,7 +259,6 @@
     width: 100%;
     height: 50%;
     padding: 1rem;
-    outline: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-around;
