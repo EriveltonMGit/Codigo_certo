@@ -428,6 +428,429 @@
 
 
 
+
+
+
+                                         // MIDIAS QUERYS
+
+
+
+
+
+
+// MIDIA QUERY 600PX - 1024PX 
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: portrait) {
+///// CONTEÚDO DA SECTION 2///////
+#sobre {
+  width: 100%;
+  height: 400vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+// DESCRIÇAO 
+
+.descricao {
+  width: 90%;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+
+}
+
+.descricao h3 {
+  font-family: Purista;
+  color: var(--bs-dark-2);
+  font-size: 7vw;
+  font-weight: bolder;
+}
+
+.descricao p {
+  color: var(--bs-gray-600);
+  font-family: SpaceGrotesk-VariableFont;
+  font-size: 4.5vw;
+}
+
+// TITULO H3 DESCRIÇÃO
+.text_titulo {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3vw;
+}
+
+
+// DIV TEXTO - DESCRICAO - SOBRE (H3)
+.text_desc_1 {
+
+  width: 100%;
+  height: 28%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+
+// DIV TEXTO DESCRIÇAO
+.text_desc_1 div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1vw;
+}
+
+// BUTTON (A) - GITHUB
+.text_desc_1 div a {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  transition: .5s ease-in-out;
+  border: 1px solid var(--bs-gray-600);
+  cursor: pointer;
+  font-size: 4.5vw;
+  color: var(--bs-gray-600);
+  z-index: 1;
+}
+
+.text_desc_1 div a:hover {
+  box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.322);
+  color: var(--bs-red);
+}
+
+
+
+
+// TEXTO H3 DOS OBJETIVOS
+.obj_text {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3vw;
+}
+
+// DESCRIÇÃO DOS OBJETIVOS TEXTO (P)
+.obj_desc_1 {
+  width: 100%;
+  height: 28%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+
+}
+
+/* ICON DE STATUS*/
+.status-icon {
+  width: 2vw;
+  height: 2vw;
+  background-color: var(--bs-success);
+  border-radius: 50%;
+  position: relative;
+  animation: pulse 1.5s infinite;
+
+}
+
+.card_sobre_text_perfil div button:hover .status-icon {
+  background-color: var(--bs-dark);
+}
+
+/* Animação de pulsar */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+  }
+
+  70% {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px 10px rgba(76, 175, 80, 0);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+  }
+}
+
+
+
+
+
+
+// ÁREAS DE INTERESSE TITULO
+.inte_text {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3vw;
+
+}
+
+.inte_desc_1 {
+  width: 100%;
+  height: 28%;
+  padding: 1rem;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// DIV FLUTUANTE
+.desc_flutuante {
+  width: 100%;
+  height: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+// DIV FLUTUANTE
+.flut {
+  width: 90%;
+  margin-top: 4vh;
+  height: 100vh;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.322);
+
+}
+
+
+/* IMG DO  CARD - PERFIL FLUTUANTE */
+.img_perfil img {
+width: 48vw;
+object-fit: cover;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+bottom: 0;
+filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.651));
+}
+/* DESCRIÇÃO PERFIL */
+#sobre .perfil_descricao {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+/* IMG DO  CARD - PERFIL FLUTUANTE */
+.img_perfil {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: var(--bs-gray-200);
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  background-image: url("/assets/img/section_1/img_perfil.jpg");
+  object-fit: cover;
+  background-size: cover;
+}
+
+
+
+/* DIV TEXTO DO PERFIL FLUTUANTE */
+.text_perfil {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 20%;
+}
+
+// NOME DO PERFIL FLUTUANTE
+.text_perfil h3 {
+  font-family: Sora;
+  font-size: 5vw;
+  color: var(--bs-gray-800);
+  font-family: Purista;
+  background: linear-gradient(to right, #fc0045 0 50%, #791df3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+// DESCRIÇAO DO PERFIL FLUTUANTE
+.text_perfil p {
+  color: var(--bs-gray-600);
+  font-family: SpaceGrotesk-VariableFont;
+  font-size: 4vw;
+  margin-bottom: 0;
+}
+
+/* DIV - CONTATO DO PERFIL FLUTUANTE */
+.perfil_contato {
+  width: 100%;
+  height: 30%;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* (A) DO PERFIL FLUTUANTE */
+.btn_perfil {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* HOVER (A) DO PERFIL FLUTUANTE */
+.btn_perfil a {
+  width: 45%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+
+/* EFEITO DO (A)-1  PERFIL FLUTUANTE */
+.btn_perfil a:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  gap: 1vw;
+  background-color: var(--bs-gray-600);
+  color: var(--bs-white);
+  transition: 0.5s;
+  font-family: gotham-black;
+  font-size: 4vw;
+
+}
+
+.btn_perfil a:nth-child(1):hover {
+  background-color: var(--bs-primary);
+}
+
+/* EFEITO DO (A) -2  PERFIL FLUTUANTE */
+.btn_perfil a:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  gap: 1vw;
+  color: var(--bs-gray-600);
+  transition: 0.5s;
+  font-family: gotham-black;
+  font-size: 4vw;
+}
+
+.btn_perfil a:nth-child(2):hover {
+  background-color: var(--bs-gray-400);
+}
+
+
+
+
+
+/* DIV PERFIL FLUTUANTE - FACEBBOK, LIKED, GITHUB, WHATS */
+.icons_perfil {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// DIV DOS ICONS PERFIL FLUTUANTE
+.icons_perfil div {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1vw;
+}
+
+// ICONS PERFIL FLUTUANTE
+.icons_perfil div .bi {
+  border: 1px solid var(--bs-gray-300);
+  font-size: 6vw;
+  border-radius: 5px;
+  padding: 0.3rem;
+  display: flex;
+  color: var(--bs-gray-600);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+// HOVER DOS ICONS PERFIL FLUTUANTE
+.icons_perfil div .bi:hover {
+  box-shadow: 1px 1px 1rem var(--bs-gray-800);
+}
+
+}
+
+
+
+
+
+
+
+
 // MIDIA SCRIN 480PX
 @media screen and (max-width:480px) {
 
