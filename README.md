@@ -14,11 +14,7 @@ Este projeto reflete minha experiência como desenvolvedor Full Stack e designer
 Proporcionar um ambiente prático para explorar boas práticas de desenvolvimento.  
 Demonstrar o uso de HTML5, CSS3 e o controle de versão com Git.  
 Servir de guia para desenvolvedores interessados em aprender e aplicar conceitos de Clean Code e design responsivo.  
-**Feedbacks visuais para o usuário.**  
-**Permitir edição dos conteúdos.**  
-**Utilização máxima possível de HTML semântico.**  
-**CSS bem estruturado.**  
-**Código limpo e bem organizado.**  
+
 
 
 &nbsp;<a href="https://coigo-certo.netlify.app/">
