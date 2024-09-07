@@ -1,0 +1,463 @@
+///// CONTEÚDO DA SECTION 1///////
+#home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+
+
+// TEXTO EXIBIDO NA SECTION 1 - CARD 1
+.info_text {
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  width: 45%;
+  height: 70%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 10px;
+  z-index: 2;
+  backdrop-filter: blur(7px);
+}
+
+// TEXTO H3 EXIBIDO NA SECTION 1 - CARD 1
+.info_text h3 {
+  font-family: Purista;
+  color: var(--bs-dark-2);
+  font-size: 2.8vw;
+  font-weight: bolder;
+
+}
+
+.info_text span {
+  font-family: Purista;
+  font-size: 2vw;
+  font-weight: bolder;
+  color: var(--bs-gray-600);
+}
+
+// TEXTO (P) EXIBIDO NA SECTION 1 - CARD 1
+.info_text p {
+  color: var(--bs-gray-600);
+  font-family: SpaceGrotesk-VariableFont;
+  font-size: 1.7vw;
+}
+
+// TEXTOS NOME E DESCRIÇÃO - // TEXTO EXIBIDO NA SECTION 1 - CARD 1
+.txto {
+  width: 100%;
+  height: 70%;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+// ICONS - // ICONS EXIBIDO NA SECTION 1 - CARD 1
+.info_btn {
+
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+
+}
+
+// DIV DA CLASSE INFO_BTN
+.info_btn .info_icons {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+// DIV DA CLASSE INFO_BTN
+.info_btn .btn_whats {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: gotham-black;
+}
+
+.info_btn .btn_whats .bi {
+  rotate: 180deg;
+  transition: 0.5s;
+}
+
+.info_btn .btn_whats:hover .bi {
+  rotate: -0deg;
+}
+
+// BUTTON DA CLASSE INFO_BTN
+.info_btn button {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: .5s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  font-size: 1.5vw;
+  color: var(--bs-dark);
+  z-index: 1;
+}
+
+// HOVER BUTTON DA CLASSE INFO_BTN
+.info_btn div button:hover {
+  box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.322);
+  color: var(--bs-red);
+}
+
+// (A) DA CLASSE INFO_BTN
+.info_btn .info_icons a {
+  color: var(--bs-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.info_btn .info_icons a .bi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5vw;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 0;
+}
+
+// HOVER DO (A) DA CLASSE INFO_BTN
+.info_btn div a:hover {
+  color: var(--bs-red);
+  scale: 1.1;
+}
+
+// IMG EXIBIDO NA SECTION 1 - CARD 2
+.info_img {
+  width: 45%;
+  height: 70%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+
+  border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.info_img img {
+  width: 35vw;
+  height: 100%;
+}
+
+
+// IMAGEM FLUTUANTE DA SECTION 1
+.info_img_flutuante {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+// IMG LINHAS CARD 1 - SECTION 1
+.info_img_flutuante img {
+  width: 50%;
+  rotate: 20deg;
+  object-fit: cover;
+
+
+}
+
+// IMG SETA CARD 1 - SECTION 1
+.info_seta_flutuante {
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.info_seta_flutuante img {
+  width: 40vw;
+  rotate: -20deg;
+  margin-left: -22vw;
+  object-fit: cover;
+  animation: slider_cursor 10s infinite;
+}
+
+// ANIMAÇÃO DO CURSOR DO CARD 2 - IMG 
+@keyframes slider_cursor {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(25px);
+    rotate: -10deg;
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+// MIDIA SCREEN 480PX
+@media screen and (max-width:480px) {
+
+  ///// CONTEÚDO DA SECTION 1///////
+  #home {
+
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+  }
+
+
+
+  // TEXTO EXIBIDO NA SECTION 1 - CARD 1
+  .info_text {
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    width: 90%;
+    height: 35%;
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    z-index: 2;
+    backdrop-filter: blur(7px);
+  }
+
+  // TEXTO H3 EXIBIDO NA SECTION 1 - CARD 1
+  .info_text h3 {
+    font-family: Purista;
+    color: var(--bs-dark-2);
+    font-size: 8vw;
+    font-weight: bolder;
+
+  }
+
+  .info_text span {
+    font-family: Purista;
+    font-size: 6vw;
+    font-weight: bolder;
+    color: var(--bs-gray-600);
+  }
+
+  // TEXTO (P) EXIBIDO NA SECTION 1 - CARD 1
+  .info_text p {
+    color: var(--bs-gray-600);
+    font-family: SpaceGrotesk-VariableFont;
+    font-size: 4vw;
+  }
+
+  // TEXTOS NOME E DESCRIÇÃO - // TEXTO EXIBIDO NA SECTION 1 - CARD 1
+  .txto {
+    width: 100%;
+    height: 65%;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  // ICONS - // ICONS EXIBIDO NA SECTION 1 - CARD 1
+  .info_btn {
+
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+
+  // DIV DA CLASSE INFO_BTN
+  .info_btn .info_icons {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 10;
+  }
+
+  // DIV DA CLASSE INFO_BTN
+  .info_btn .btn_whats {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: gotham-black;
+  }
+
+  .info_btn .btn_whats .bi {
+    rotate: 180deg;
+    transition: 0.5s;
+  }
+
+  .info_btn .btn_whats:hover .bi {
+    rotate: -0deg;
+  }
+
+  // BUTTON DA CLASSE INFO_BTN
+  .info_btn button {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    font-size: 4vw;
+    color: var(--bs-dark);
+    font-family: gotham-black;
+    z-index: 1;
+  }
+
+  // HOVER BUTTON DA CLASSE INFO_BTN
+  .info_btn div button:hover {
+    box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.322);
+    color: var(--bs-red);
+  }
+
+  // (A) DA CLASSE INFO_BTN
+  .info_btn .info_icons a {
+    color: var(--bs-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .info_btn .info_icons a .bi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7vw;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 0;
+  }
+
+  // HOVER DO (A) DA CLASSE INFO_BTN
+  .info_btn div a:hover {
+    color: var(--bs-red);
+    scale: 1.1;
+  }
+
+  // IMG EXIBIDO NA SECTION 1 - CARD 2
+  .info_img {
+    width: 90%;
+    height: 35%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.274);
+  }
+
+  .info_img img {
+    width: 35vw;
+    height: 100%;
+  }
+
+
+  //  IMG LINHAS SECTION 1
+  .info_img_flutuante {
+
+    display: none;
+  }
+
+
+
+  // IMG SETA CARD 1 - SECTION 1
+  .info_seta_flutuante {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .info_seta_flutuante img {
+    width: 90vw;
+    border-radius: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: -3vh;
+    rotate: -20deg;
+    top: 0;
+    margin-left: 2%;
+    object-fit: cover;
+    animation: slider_cursor 10s infinite;
+  }
+
+  // ANIMAÇÃO DO CURSOR DO CARD 2 - IMG 
+  @keyframes slider_cursor {
+    0% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(25px);
+      rotate: 10deg;
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+}

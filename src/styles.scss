@@ -1,1 +1,89 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--bs-white);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+// CONFIGURAÇÃO DAS TAGS UL, LI , A
+a,
+li,
+ul {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+// CORES UTILIZADAS NO PROJETO
+
+:root {
+    --bs-dark: #000000;
+    --bs-dark-2: #111214;
+    --bs-red: #e53939;
+    --bs-white: #ffffff;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-primary:#00aaf8 ;
+    --bs-success: rgb(1, 255, 1);
+
+}
+
+
+
+// BARRA LATERAL DO SCROLL
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--bs-white);
+    animation: rotacionar 5s linear infinite;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, #e53939 0, #e53939 50%, #e53939,);
+    border-radius: 6px;
+    transition: 05s ease-in-out;
+  
+  }
+  
+
+
+
+
+  /* // FONTES */
+
+@font-face {
+    font-family: Sora;
+    src: url('assets/fonts/static/Sora-Bold.ttf');
+  }
+  
+  @font-face {
+    font-family: Sora-Thin;
+    src: url('assets/fonts/static/Sora-Thin.ttf');
+  }
+  
+  @font-face {
+    font-family: gotham-black;
+    src: url('assets/fonts/Gotham/gotham-bold.woff2');
+  }
+  
+  @font-face {
+    font-family: Purista;
+    src: url('assets/fonts/puristBold/Purista\ Bold.otf');
+  }
+  @font-face {
+    font-family: SpaceGrotesk-VariableFont;
+    src: url('assets/fonts/space/SpaceGrotesk-VariableFont_wght.ttf');
+  }

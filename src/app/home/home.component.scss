@@ -1,0 +1,448 @@
+
+///// NAV BAR - MENU ///// 
+
+#nav_bar {
+    width: 80.1%;
+    height: 12%;
+    top: 3vh;
+    position: fixed;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    backdrop-filter: blur(7px);
+    box-shadow: 1px 1px 0.5rem rgba(0, 0, 0, 0.226);
+    z-index: 100;
+    padding: 0.5rem;
+    z-index: 100;
+}
+
+
+/* LOGO */
+#logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0px 0px 10px;
+   
+    
+
+}
+// DIV QUE CONTEM A LOGO NO MENU
+#logo div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px 0px 0px 10px;
+   
+}
+// TEXTO DA LOGO NO MENU
+#logo div h5{
+    color: var(--bs-red);
+    font-size: 1.5vw;
+    font-family: Sora;
+    margin-bottom: 0;
+}
+// ICON DA DIV LOGO
+#logo .bi{
+    font-size: 2vw;
+}
+
+/* NAV (UL) */
+#ul_nav {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    padding: 0.5rem;
+}
+// LISTA DA (LI) DO MENU
+#ul_nav li{
+    width: 16%;
+    height: 90%;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+// (A) DA LINTA DO MENU
+#ul_nav li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    width: 100%;
+    height: 100%;
+    color: var(--bs-gray-600);
+    transition: 0.5s;
+    border-radius: 5px;
+    font-family: gotham-black;
+    font-size: 1vw;
+    font-weight: 600;
+}
+// EFEITO HOVER DO (A) DA LINTA DO MENU
+#ul_nav li a:hover{
+background-color: var(--bs-gray-200);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VAMOS CONVERSAR */
+#vamos_conversar {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0.5rem;
+}
+/* #vamos_conversar BUTTON 1 */
+#vamos_conversar button:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    width: 20%;
+    height: 100%;
+    background-color: inherit;
+    border: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-family: VariableFont_wght;
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+#vamos_conversar button:nth-child(1):hover{
+    background-color: var(--bs-gray-300);
+}
+
+/* #vamos_conversar BUTTON  2*/
+#vamos_conversar button:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    width: 75%;
+    height: 100%;
+    background-color: inherit;
+    border: none;
+    background-color: var( --bs-dark);
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-family: VariableFont_wght;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+#vamos_conversar button:nth-child(2):hover{
+    background-color: var(--bs-red);
+}
+#vamos_conversar button:nth-child(2) .bi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    rotate: 180deg;
+    transition: 0.5s;
+}
+#vamos_conversar button:nth-child(2):hover .bi{
+    rotate: 0deg;
+}
+
+
+
+// MIDIA SCREM ACIMA 500PX
+@media screen and (min-width: 500px) {
+  #menu{
+    display: none;
+  }
+}
+
+
+
+// RESPONSIVIDADE 480PX
+@media screen and (max-width: 480px) {
+    
+///// NAV BAR - MENU ///// 
+
+#nav_bar {
+    width: 90%;
+    height: 10vh;
+    top: 1vh;
+    position: fixed;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    backdrop-filter: blur(7px);
+    box-shadow: 1px 1px 0.5rem rgba(0, 0, 0, 0.226);
+    z-index: 100;
+    padding: 0.5rem;
+    z-index: 100;
+}
+
+
+/* LOGO */
+#logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0px 0px 10px;
+   
+    
+
+}
+// DIV QUE CONTEM A LOGO NO MENU
+#logo div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px 0px 0px 10px;
+   
+   
+}
+// TEXTO DA LOGO NO MENU
+#logo div h5{
+    color: var(--bs-red);
+    font-size: 3vw;
+    font-family: Sora;
+    margin-bottom: 0;
+}
+// ICON DA DIV LOGO
+#logo .bi{
+    font-size: 4vw;
+    
+}
+
+/* NAV (UL) */
+#ul_nav {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    padding: 0.5rem;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VAMOS CONVERSAR */
+#vamos_conversar {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2vw;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0.5rem;
+}
+/* #vamos_conversar BUTTON 1 */
+#vamos_conversar button:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    width: 30%;
+    padding: 1rem;
+    background-color: inherit;
+    border: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-family: VariableFont_wght;
+    font-size: 5vw;
+    font-weight: 600;
+    z-index: 200;
+}
+#vamos_conversar button:nth-child(1):hover{
+    background-color: var(--bs-gray-300);
+}
+
+/* #vamos_conversar BUTTON  2*/
+#vamos_conversar button:nth-child(2){
+ display: none;
+}
+
+
+// NAV DEVICE
+#nav_device {
+    // border: 1px solid white;
+    width: 90vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    gap: 2vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+
+  }
+
+  .logo_devide {
+    display: block;
+  }
+
+  .logo_devide img {
+    width: 35vw;
+  }
+
+  // btn_menu
+  #btn_menu {
+    width: 12vw;
+    height: 6vh;
+    margin-right: 4vw;
+    z-index: 100;
+    display: flex;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    padding: 0.2rem;
+
+  }
+
+  #linha_1,
+  #linha_2,
+  #linha_3 {
+    width: 100%;
+    height: 1vw;
+    background-color: #aaa6a6;
+    border-radius: 2px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .cross #linha_1 {
+    transform: rotate(43deg) translate(0.5vw, 0.5vw);
+    margin-top: 2vh;
+
+  }
+
+  .cross #linha_2 {
+    opacity: 0;
+  }
+
+  .cross #linha_3 {
+    transform: rotate(-43deg) translate(0.5vw, -0.5vw);
+    margin-bottom: 2vh;
+  }
+
+  #menu {
+    position: fixed;
+    width: 90vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: auto;
+    transition: max-height 0.3s ease-out;
+    z-index: 100;
+    padding: 2rem;
+    top: 0px;
+    margin-top: 10vh;
+    border-radius: 0px 0px 10px 10px;
+    max-height: 0;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.322);
+    display: none;
+  }
+
+  #menu.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    max-height: 100vh;
+  }
+
+  #menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    padding: 0;
+  }
+
+  #menu ul li {
+    width: 100%;
+    height: 50vh;
+    padding: 0.3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #menu ul li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    background: linear-gradient(to right, #fc0045 0, #791df3 70%, #791df3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'VariableFont_wght', sans-serif;
+    font-size: 4vw;
+  }
+
+  #menu ul li a:hover {
+    background: linear-gradient(to right, #aaa6a6, #aaa6a6, #aaa6a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+}
