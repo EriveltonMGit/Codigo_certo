@@ -442,7 +442,6 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    border: 1px solid rgb(0, 255, 98);
   }
 
   // DESCRIÇAO 
@@ -637,47 +636,29 @@
   // DIV FLUTUANTE
   .desc_flutuante {
     width: 100%;
-    height: 150vh;
+    height: 32%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border: 1px solid rgb(255, 0, 0);
+    
   }
 
 
   // DIV FLUTUANTE
   .flut {
     width: 90%;
-    height: 60vh;
-    display: none;
+    margin-top: 4vh;
+     height: 70vh;
     border-radius: 10px;
-
-    border: 1px solid rgb(0, 255, 98);
     padding: 1rem;
-    top: 40vh;
     border: 1px solid rgba(0, 0, 0, 0.274);
     box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.322);
+
+    
   }
 
-
-
-  /* PERFIL FLUTUANTE  */
-  #sobre #section_perfil {
-    width: 25vw;
-    height: 40vh;
-    margin-top: 40vh;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    border-radius: 10px;
-    background-color: var(--bs-white);
-    box-shadow: 1px 1px 0.5rem rgba(0, 0, 0, 0.226);
-    z-index: 2;
-    padding: 1rem;
-
-  }
 
 
   /* DESCRIÇÃO PERFIL */

@@ -13,8 +13,11 @@ function mudarCorBody() {
     var mudarCor_Icon = document.querySelectorAll(`.mudarCor_Icon`)
     // EXIBIR A BORDA BRANCA AO MUDAR O ESTADO
     var borda = document.querySelectorAll(`.borda`)
-    // MUDA A IMAGEM DO CURSOR 
-    // var img_cursor = document.querySelectorAll(`#img_cursor`)
+    // MUDAR A COR DOS TITULOS PARA WHITE QUANDO O BODY FICAR PRETO
+    var colorH3_white = document.querySelectorAll(`.colorH3_white`)
+      
+
+
     // MUDAR OS ICONS
     var sol = document.getElementById('sol');
     var lua = document.getElementById('lua');
@@ -53,6 +56,11 @@ function mudarCorBody() {
         borda.forEach(function(elementoBorda){
             elementoBorda.style.border = '1px solid white'  
         })
+
+            // MUDAR A COR DOS TITULOS PARA WHITE QUANDO O BODY FICAR PRETO
+        colorH3_white.forEach(function(colorH3_white_C){// cria uma função e um paramentro
+            colorH3_white_C.style.color = 'white'
+        })
      
       
         
@@ -77,7 +85,10 @@ function mudarCorBody() {
         borda.forEach(function(elementoBorda){
             elementoBorda.style.border = ''  
         })
-       
+          // MUDAR A COR DOS TITULOS PARA PRETO QUANDO O BODY FICAR BRANCO
+          colorH3_white.forEach(function(colorH3_white_C){// cria uma função e um paramentro
+            colorH3_white_C.style.color = 'var(--bs-dark)'
+        })
         
     }
 }
