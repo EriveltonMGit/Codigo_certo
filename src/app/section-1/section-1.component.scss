@@ -255,7 +255,7 @@
   .info_text {
     border: 1px solid rgba(0, 0, 0, 0.274);
     width: 90%;
-    height: 35%;
+    height: 40%;
     margin-top: 25%;
     display: flex;
     align-items: center;
@@ -391,10 +391,14 @@
     scale: 1.1;
   }
 
+
+
+
+
   // IMG EXIBIDO NA SECTION 1 - CARD 2
   .info_img {
     width: 90%;
-    height: 35%;
+    height:40%;
     margin-top: 5%;
     display: flex;
     align-items: center;
@@ -433,16 +437,17 @@
   }
 
   .info_seta_flutuante img {
-    width: 90vw;
+    width: 80vw;
+    position: absolute;
     border-radius: 60%;
     margin-right: 5%;
     margin-left: 5%;
     margin-top: -3vh;
     rotate: -20deg;
-    top: 0;
     margin-left: 2%;
     object-fit: cover;
     animation: slider_cursor 10s infinite;
+    
   }
 
   // ANIMAÇÃO DO CURSOR DO CARD 2 - IMG 
