@@ -141,12 +141,8 @@
   
     font-size: 2vw;
     font-weight: bolder;
-    color: var(--bs-gray-600);
-    text-shadow: 
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #ffffff; 
+    color: var(--bs-red);
+   
 }
 
 .motivacoes .bi{
@@ -173,7 +169,7 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 10vh;
-    outline: 1px solid red;
+    // outline: 1px solid red;
     
 }
 
@@ -189,7 +185,7 @@
     align-items: center;
     justify-content: flex-start;
     z-index: 2;
-    outline: 1px solid rgb(94, 255, 0);
+    // outline: 1px solid rgb(94, 255, 0);
     
 
 }
@@ -308,13 +304,8 @@
   
     font-size: 3.5vw;
     font-weight: bolder;
-    color: var(--bs-gray-600);
-    text-shadow: 
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #ffffff; 
-     font-family: SpaceGrotesk-VariableFont;
+    color: var(--bs-red);
+     font-family: Purista
 }
 
 .motivacoes .bi{

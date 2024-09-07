@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px 0px 0px 10px;
-   
+
     
 
 }
@@ -40,14 +40,12 @@
     align-items: center;
     justify-content: space-around;
     border-radius: 10px 0px 0px 10px;
+    
    
 }
 // TEXTO DA LOGO NO MENU
-#logo div h5{
-    color: var(--bs-red);
-    font-size: 1.5vw;
-    font-family: Sora;
-    margin-bottom: 0;
+#logo div img{
+    width: 15vw;
 }
 // ICON DA DIV LOGO
 #logo .bi{
@@ -174,6 +172,9 @@ background-color: var(--bs-gray-200);
 // MIDIA SCREM ACIMA 500PX
 @media screen and (min-width: 500px) {
   #menu{
+    display: none;
+  }
+  #nav_device{
     display: none;
   }
 }

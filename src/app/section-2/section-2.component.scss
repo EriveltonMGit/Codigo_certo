@@ -258,7 +258,7 @@
 
 }
 
-/* IMG DO  CARD - PERFIL FLUTUANTE */
+/* IMG DO  CARD 2 - PERFIL FLUTUANTE */
 .img_perfil {
   width: 100%;
   height: 80%;
@@ -268,23 +268,20 @@
   background-color: var(--bs-gray-200);
   border-radius: 10px 10px 10px 10px;
   position: relative;
-  background-image: url("/assets/img/section_1/img_perfil.jpg");
-  object-fit: cover;
-  background-size: cover;
+ 
+
 }
 
 /* IMG DO  CARD - PERFIL FLUTUANTE */
-// .img_perfil img {
-//   width: 100%;
-//   height: 100%;
-//   object-fit: cover;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   position: absolute;
-//   bottom: 0;
-
-
-// }
+.img_perfil img {
+  width: 16vw;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.651));
+}
 
 /* DIV TEXTO DO PERFIL FLUTUANTE */
 .text_perfil {
@@ -599,7 +596,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 3vw;
-  
+
   }
 
   .inte_desc_1 {
@@ -611,7 +608,7 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    
+
   }
 
 
@@ -641,7 +638,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
   }
 
 
@@ -649,17 +646,26 @@
   .flut {
     width: 90%;
     margin-top: 4vh;
-     height: 70vh;
+    height: 70vh;
     border-radius: 10px;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.274);
     box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.322);
 
-    
+
   }
 
 
-
+/* IMG DO  CARD - PERFIL FLUTUANTE */
+.img_perfil img {
+  width: 57vw;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.651));
+}
   /* DESCRIÇÃO PERFIL */
   #sobre .perfil_descricao {
     width: 100%;

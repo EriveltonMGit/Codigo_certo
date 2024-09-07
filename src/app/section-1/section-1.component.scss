@@ -159,13 +159,19 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 10px;
-
+  position: relative;
+  background-color: var(--bs-gray-300);
   border: 1px solid rgba(0, 0, 0, 0.274);
 }
 
 .info_img img {
-  width: 35vw;
-  height: 100%;
+  width: 25vw;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.651));
 }
 
 
@@ -395,7 +401,6 @@
 
 
 
-
   // IMG EXIBIDO NA SECTION 1 - CARD 2
   .info_img {
     width: 90%;
@@ -405,13 +410,21 @@
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
-
+    position: relative;
+    background-color: var(--bs-gray-300);
     border: 1px solid rgba(0, 0, 0, 0.274);
+
   }
 
   .info_img img {
-    width: 35vw;
-    height: 100%;
+    width: 55vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.651));
   }
 
 
