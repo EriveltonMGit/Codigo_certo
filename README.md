@@ -5,7 +5,23 @@ Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 **Atenção!** site em construção, responsividade 480px.
 ![Descrição da Imagem](https://github.com/EriveltonMGit/Codigo_certo/raw/main/src/assets/capa.png)
 
-&nbsp;<a href="https://web-desing-page.netlify.app/">
+
+# Codigo Certo
+
+Codigo Certo é uma plataforma web moderna e responsiva, desenvolvida com foco em boas práticas de desenvolvimento e código limpo. O objetivo principal é oferecer um ambiente prático, acessível e intuitivo que demonstram as minhas habilidades em desenvolvimento web.
+Este projeto reflete minha experiência como desenvolvedor Full Stack e designer UX/UI, com ênfase na criação de soluções eficientes e inovadoras.  
+# Objetivos do Projeto  
+Proporcionar um ambiente prático para explorar boas práticas de desenvolvimento.  
+Demonstrar o uso de HTML5, CSS3 e o controle de versão com Git.  
+Servir de guia para desenvolvedores interessados em aprender e aplicar conceitos de Clean Code e design responsivo.  
+**Feedbacks visuais para o usuário.**  
+**Permitir edição dos conteúdos.**  
+**Utilização máxima possível de HTML semântico.**  
+**CSS bem estruturado.**  
+**Código limpo e bem organizado.**  
+
+
+&nbsp;<a href="https://coigo-certo.netlify.app/">
 Link para o projeto 
 </a>&nbsp;
 
