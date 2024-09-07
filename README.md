@@ -21,7 +21,7 @@ Servir de guia para desenvolvedores interessados em aprender e aplicar conceitos
 Link para o projeto 
 </a>&nbsp;
 
-**Linguagens utilizadas**
+# Linguagens utilizadas  
 
 
  <div display="flex" >
