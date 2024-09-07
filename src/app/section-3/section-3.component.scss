@@ -165,14 +165,14 @@
 @media screen and (max-width:480px) {
     // MINHA JORNADA SECTION 3
 #minha_jornada {
-    width: 100%;
+    width: 95%;
     height: 130vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
-    position: relative;
     margin-top: 5vh;
+    //  outline: 1px solid red;
 }
 
 // IMG DISCORD
@@ -182,7 +182,6 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    margin-left: 5vw;
     margin-top: -10vh;
     display: flex;
     align-items: center;
