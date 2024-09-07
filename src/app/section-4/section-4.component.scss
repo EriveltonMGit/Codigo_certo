@@ -284,15 +284,16 @@
     // text-uppercase
     .text-uppercase {
     
-        color: var( --bs-dark);
-        font-size: 5.5vw;
-        font-family: gotham-black;
+        font-family: Purista;
+        color: var(--bs-dark-2);
+        font-size: 6vw;
         
     }
     .text-uppercase_p{
-        color: var(--color-text-nav);
-        font-family: VariableFont_wght;
-        font-size: 5.5vw;
+        color: var(--bs-gray-600);
+        font-family: Purista;
+        font-size: 4.5vw;
+        
         font-weight: bolder;
     }
     #copyright {

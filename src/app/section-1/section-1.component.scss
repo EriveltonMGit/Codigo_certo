@@ -286,7 +286,7 @@
   .info_text p {
     color: var(--bs-gray-600);
     font-family: SpaceGrotesk-VariableFont;
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 
   // TEXTOS NOME E DESCRIÇÃO - // TEXTO EXIBIDO NA SECTION 1 - CARD 1
@@ -355,15 +355,16 @@
     border: 1px solid rgba(0, 0, 0, 0.24);
     cursor: pointer;
     font-size: 4vw;
-    color: var(--bs-dark);
-    font-family: gotham-black;
+    font-family: Purista;
+    color: var(--bs-dark-2);
     z-index: 1;
   }
 
   // HOVER BUTTON DA CLASSE INFO_BTN
   .info_btn div button:hover {
     box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.322);
-    color: var(--bs-red);
+    background-color: var(--bs-red);
+    color: var(--bs-white);
   }
 
   // (A) DA CLASSE INFO_BTN

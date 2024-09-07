@@ -469,7 +469,7 @@
   .descricao p {
     color: var(--bs-gray-600);
     font-family: SpaceGrotesk-VariableFont;
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 
   // TITULO H3 DESCRIÇÃO
@@ -518,7 +518,7 @@
     transition: .5s ease-in-out;
     border: 1px solid var(--bs-gray-600);
     cursor: pointer;
-    font-size: 4vw;
+    font-size: 4.5vw;
     color: var(--bs-gray-600);
     z-index: 1;
   }
@@ -641,7 +641,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid rgb(255, 0, 0);
     
   }
 

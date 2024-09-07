@@ -43,7 +43,7 @@ function mudarCorBody() {
             home.style.backgroundColor = 'var(--bs-white)' //MUDA PARA BRANCO
         })
 
-        // MUDAR A COR DPS TEXTOS 
+        // MUDAR A COR DOS TEXTOS 
         mudarCor_Textos.forEach(function(elementoP){
             elementoP.style.color = 'var( --bs-white)'
         })
@@ -62,7 +62,8 @@ function mudarCorBody() {
             colorH3_white_C.style.color = 'white'
         })
      
-      
+
+     
         
 
     } else {
@@ -89,6 +90,9 @@ function mudarCorBody() {
           colorH3_white.forEach(function(colorH3_white_C){// cria uma função e um paramentro
             colorH3_white_C.style.color = 'var(--bs-dark)'
         })
+
+       
+      
         
     }
 }
