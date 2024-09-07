@@ -178,7 +178,12 @@ background-color: var(--bs-gray-200);
     display: none;
   }
 }
-
+// MIDIA QUERY PARA REMOVER O ICON GRID DO HOME
+@media screen and (max-width:481px) {
+  #logo_grid{
+  display: none;
+  }
+}
 
 
 // RESPONSIVIDADE 480PX
@@ -230,7 +235,7 @@ background-color: var(--bs-gray-200);
 }
 // TEXTO DA LOGO NO MENU
 #logo div img{
-   width:52vw;
+   width:70vw;
 }
 // ICON DA DIV LOGO
 #logo .bi{
