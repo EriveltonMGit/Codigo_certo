@@ -191,7 +191,7 @@
 
 // IMG LINHAS 
 .img_bk_roxo img {
-    width: 100%;
+    width: 50vw;
     rotate: 50deg;
     object-fit: cover;
     filter: blur(2px);
@@ -238,7 +238,7 @@
     justify-content: space-around;
     color: var(--bs-gray-600);
     font-family: SpaceGrotesk-VariableFont;
-    font-size: 4vw;
+    font-size: 4.5vw;
     border-radius: 10px;
     border-radius: 0px 0px 10px 10px;
     border: 1px solid rgba(0, 0, 0, 0.274);
