@@ -150,30 +150,64 @@
   scale: 1.1;
 }
 
-// IMG EXIBIDO NA SECTION 1 - CARD 2
+// DIV DA IMG EXIBIDO NA SECTION 1 - CARD 2
 .info_img {
+  
   width: 45%;
   height: 70%;
   margin-top: 5%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   border-radius: 10px;
   position: relative;
-  background-color: var(--bs-gray-300);
+  background-color: var(--bs-dar-3);
   border: 1px solid rgba(0, 0, 0, 0.274);
 }
-
+// IMAGEM CARD -2
 .info_img img {
-  width: 25vw;
+  width: 100%;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  bottom: 0;
+ 
   filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.651));
 }
-
+// (A) CARD 2
+.info_img a{
+  position: absolute;
+ bottom:  0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding: 1rem ;
+  margin-bottom: 2vh;
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 10;
+  border: 1px solid rgba(255, 255, 255, 0.363);
+  font-family: Purista;
+  font-size: 1.3vw;
+  font-weight: bolder;
+  color: var(  --bs-primary);
+}
+.info_img a:hover{
+  background-color: rgb(255, 255, 255);
+  color: var(--bs-dar-3);
+}
+// ICON CARD 2
+.info_img a .bi{
+  rotate: 180deg;
+  transition: 0.5s;
+  color: white;
+}
+// EFEITO DO ICON DENTRO DO (A) LOCLIZADO NA IMAGEM CARD 2
+.info_img a:hover .bi{
+  rotate: 0deg;
+  color: var(  --bs-primary);
+}
 
 // IMAGEM FLUTUANTE DA SECTION 1
 .info_img_flutuante {
@@ -413,26 +447,63 @@
     margin-top: 5%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     border-radius: 10px;
     position: relative;
-    background-color: var(--bs-gray-300);
+    background-color: var(--bs-dar-3);
     border: 1px solid rgba(0, 0, 0, 0.274);
-
   }
 
   .info_img img {
-    width: 70vw;
+    width: 100%;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    bottom: 0;
     
     filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.651));
   }
 
-
+// (A) CARD 2
+.info_img a{
+  position: absolute;
+ bottom:  0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding: 2rem ;
+  width: 90%;
+  margin-bottom: 6vh;
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 10;
+  border: 1px solid rgba(255, 255, 255, 0.363);
+  font-family: Purista;
+  font-size: 4vw;
+  font-weight: bolder;
+  color: var(  --bs-primary);
+}
+.info_img a:hover{
+  background-color: rgb(255, 255, 255);
+  color: var(--bs-dar-3);
+}
+// ICON CARD 2
+.info_img a .bi{
+  rotate: 180deg;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 0px;
+  transition: 0.5s;
+  color: white;
+}
+// EFEITO DO ICON DENTRO DO (A) LOCLIZADO NA IMAGEM CARD 2
+.info_img a:hover .bi{
+  rotate: 0deg;
+  color: var(  --bs-primary);
+}
   //  IMG LINHAS SECTION 1
   .info_img_flutuante {
 
