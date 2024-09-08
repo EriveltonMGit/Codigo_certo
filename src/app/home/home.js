@@ -140,11 +140,6 @@ function abrirMenu() {
 
 //   MESNSAGEM SOBRE O PORTFÓLIO
 function portfolioMensagem(){
-   var msg = confirm('Deseja uma mentoria com o desenvolvedor?')
-   if(msg){
-    location.href = 'https://wa.me/61981579569?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20voc%C3%AA%20e%20saber%20mais%20detalhes%20sobre%20como%20funciona%20cada%20etapa%20do%20desenvolvimento.'
-   }
-   else{
-    return
-   }
+   alert('Página em desenvolvimento, Obrigado pela atenção!')
+
 }
