@@ -121,7 +121,6 @@
 .status-icon {
   width: 0.5vw;
   height: 0.5vw;
-  background-color: var(--bs-success);
   border-radius: 50%;
   position: relative;
   animation: pulse 1.5s infinite;
@@ -136,7 +135,7 @@
 @keyframes pulse {
   0% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+    box-shadow: 0 0 0 0 rgba(76, 175, 84, 0.7);
   }
 
   70% {
@@ -229,7 +228,6 @@
 /* PERFIL FLUTUANTE  */
 #sobre #section_perfil {
   width: 25vw;
-
   height: 100vh;
   top: 18vh;
   margin-top: -150vh;
@@ -274,7 +272,7 @@
 
 /* IMG DO  CARD - PERFIL FLUTUANTE */
 .img_perfil img {
-  width: 16vw;
+  width: 14vw;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
