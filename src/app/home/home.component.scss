@@ -187,7 +187,6 @@ background-color: var(--bs-gray-200);
 #nav_bar {
   width: 90%;
   height: 10vh;
-  border: 1px solid red;
   top: 1vh;
   position: fixed;
   margin-left: 5%;
@@ -229,11 +228,12 @@ background-color: var(--bs-gray-200);
 }
 // TEXTO DA LOGO NO MENU
 #logo div img{
- width:70vw;
+ width:60vw;
 }
 // ICON DA DIV LOGO
 #logo .bi{
   font-size: 4vw;
+  display: none;
   
 }
 
@@ -320,13 +320,13 @@ display: none;
 }
 
 .logo_devide img {
-  width: 35vw;
+  width: 30vw;
 }
 
 // btn_menu
 #btn_menu {
   width: 12vw;
-  height: 10vh;
+  height: 7vh;
   margin-right: 4vw;
   z-index: 100;
   display: flex;
@@ -371,7 +371,7 @@ display: none;
 #menu {
   position: fixed;
   width: 90vw;
-  height: 70vh;
+  height: 60vh;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -382,12 +382,11 @@ display: none;
   z-index: 100;
   padding: 2rem;
   top: 0px;
-  margin-top: 18vh;
+  margin-top: 10vh;
   border-radius: 0px 0px 10px 10px;
   max-height: 0;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.24);
-  box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.322);
   display: none;
 }
 
@@ -432,7 +431,7 @@ display: none;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'VariableFont_wght', sans-serif;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 #menu ul li a:hover {

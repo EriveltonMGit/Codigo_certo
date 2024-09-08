@@ -246,13 +246,13 @@
 
 
 
-// MIDIA QUERY 600PX - 1024PX 
-@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: portrait) {
+// MIDIA QUERY 800PX - 1200PX 
+@media only screen and (min-device-width: 800px) and (max-width: 1200px) {
   ///// CONTEÚDO DA SECTION 1///////
   #home {
 
     width: 100%;
-    height: 250vh;
+    height: 180vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -349,7 +349,7 @@
   }
 
   .info_btn .btn_whats:hover .bi {
-    rotate: -0deg;
+    rotate: 90deg;
   }
 
   // BUTTON DA CLASSE INFO_BTN

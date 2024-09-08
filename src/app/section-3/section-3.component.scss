@@ -163,12 +163,12 @@
 
 
 
-// MIDIA QUERY 600PX - 1024PX 
-@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: portrait) {
+// MIDIA QUERY 800PX - 1200PX 
+@media only screen and (min-device-width: 800px) and (max-width: 1200px){
       // MINHA JORNADA SECTION 3
 #minha_jornada {
     width:100%;
-    height: 300vh;
+    height: 200vh;
     padding: 1rem;
     display: flex;
     align-items: center;
