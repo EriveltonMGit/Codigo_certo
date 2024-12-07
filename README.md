@@ -17,7 +17,7 @@ Servir de guia para desenvolvedores interessados em aprender e aplicar conceitos
 
 
 
-&nbsp;<a href="https://coigo-certo.netlify.app/">
+&nbsp;<a href="https://codigo-certo.netlify.app/">
 Link para o projeto 
 </a>&nbsp;
 
